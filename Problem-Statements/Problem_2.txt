@@ -1,0 +1,24 @@
+Problem Statement -
+
+The problem requires rearranging a given binary string 𝑠.
+s representing the current schedule, to maximize the number of occurrences of 
+another binary string 𝑡
+t as a contiguous substring within 𝑠 . The lengths of s and t can differ, and the
+rearrangement must preserve the number of '1's (contest days) and '0's (days off) in 𝑠
+only changing their order.
+
+Constraints: -
+string s (1⩽|s|⩽500000)
+string t (1⩽|t|⩽500000)
+
+Output: -
+
+Printed schedule should consist of characters '0' and '1' only and the number of zeros should be equal to the number of zeros in s
+and the number of ones should be equal to the number of ones in s.
+
+input -
+101101
+110
+
+output-
+110110
